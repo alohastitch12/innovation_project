@@ -17,6 +17,9 @@ module sequencer(
     else if (pb_seq_up == 0 & pb_seq_dn == 1) begin
       seq_num = seq_num - 1;
     end
+    else if (pb_seq_up == 0 & pb_seq_dn ==0) begin
+      seq_num = seq_num
+    end
   end
 );
 
